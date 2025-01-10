@@ -1,68 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 50px;
     line-height: 64px;
     color: #222;
 }
 
-h2{
+h2 {
     font-size: 46px;
     line-height: 54px;
     color: #222;
 }
 
-h4{
+h4 {
     font-size: 20px;
     color: #222;
 }
 
-h5{
+h5 {
     font-weight: 700;
     font-size: 12px;
 }
 
-p{
+p {
     font-size: 16px;
     color: #465b52;
     margin: 15px 0 20px 0;
 }
 
-.section-p1{
-    padding: 40px 80px; 
+.section-p1 {
+    padding: 40px 80px;
 }
-.section-m1{
+
+.section-m1 {
     margin: 40px 0;
 }
-body{
+
+body {
     width: 100%;
 }
 
+/* NAV PAGE -------------------*/
 
 /* this is our nav bar code start .............................*/
-.nav-logo{
+.nav-logo {
     width: 7vw;
     height: auto;
     border-radius: 50%;
 }
 
-#header{
+#header {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12px 50px;
     background: #90919651;
-    box-shadow: 0 5px 15px rgba(0, 0, 0,0.06);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +80,8 @@ body{
     padding: 0 20px;
     position: relative;
 }
-#navbar li a{
+
+#navbar li a {
     text-decoration: 16px;
     font-size: 600;
     color: #1a1a1a;
@@ -81,18 +89,60 @@ body{
 }
 
 #navbar li a:hover,
-#navbar li a.active{
+#navbar li a.active {
     color: #088178;
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after{
+#navbar li a:hover::after {
     content: "";
     width: 30%;
     height: 2px;
-    background:#088178;
+    background: #088178;
     position: absolute;
     bottom: -4px;
     left: 20px;
-} 
+}
+
+
+/* HOME PAGE ------------------- */
+
 /* this is our nav bar code end .............................*/
+
+#hero {
+    /* background-image: url("images/hero4image/hero4\ back\ 1.jpg"); */
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #088178;
+}
+
+#shopnow-btn {
+    border-radius: 50%;
+    width: 5vh;
+    height: auto;
+}
+
+#hero button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    border: 2px solid #088178;
+    font-weight: 700;
+    font-size: 15px;
+}
