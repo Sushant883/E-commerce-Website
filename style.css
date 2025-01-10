@@ -44,3 +44,31 @@ p{
 body{
     width: 100%;
 }
+
+
+/* this is our nav bar code */
+.nav-logo{
+    width: 7vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 50px;
+    background: #90919651;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,0.06);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style-type: none;
+    padding: 0 20px;
+}
