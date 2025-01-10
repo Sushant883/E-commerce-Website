@@ -109,8 +109,11 @@ body {
 
 /* this is our nav bar code end .............................*/
 
+
+
+/* here is our her section code start .................... */
 #hero {
-    background-image: url("images/hero4image/hero4\ back\ 1.jpg");
+    /* background-image: url("images/hero4image/hero4\ back\ 1.jpg"); */
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -200,4 +203,25 @@ body {
 }
 #feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
+}
+
+/* here is our hero section code ends  ...........0 */
+
+
+/* here is our product code start  ---------- */
+
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
 }
