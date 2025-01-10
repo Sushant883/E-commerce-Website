@@ -46,7 +46,7 @@ body{
 }
 
 
-/* this is our nav bar code */
+/* this is our nav bar code start .............................*/
 .nav-logo{
     width: 7vw;
     height: auto;
@@ -71,4 +71,28 @@ body{
 #navbar li {
     list-style-type: none;
     padding: 0 20px;
+    position: relative;
 }
+#navbar li a{
+    text-decoration: 16px;
+    font-size: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:#088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} 
+/* this is our nav bar code end .............................*/
