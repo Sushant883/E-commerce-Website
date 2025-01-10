@@ -215,7 +215,7 @@ body {
     border: 2px solid red;
 }
 #product1 .pro{
-    width: 23%;
+    width: 30%;
     min-width: 250px;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
@@ -232,6 +232,7 @@ body {
 
 #product1 .pro img{
     width: 100%;
+    height: 500px;
     border-radius: 20px;
     background-color: #b9c0c345;
 }
@@ -270,4 +271,11 @@ body {
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+.pro-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
