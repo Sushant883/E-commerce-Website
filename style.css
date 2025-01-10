@@ -110,7 +110,7 @@ body {
 /* this is our nav bar code end .............................*/
 
 #hero {
-    /* background-image: url("images/hero4image/hero4\ back\ 1.jpg"); */
+    background-image: url("images/hero4image/hero4\ back\ 1.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -145,4 +145,20 @@ body {
     border: 2px solid #088178;
     font-weight: 700;
     font-size: 15px;
+}
+#feature{
+    border: 2px solid blue;
+}
+#feature .fe-box{
+    width: 180px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
