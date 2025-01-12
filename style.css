@@ -595,3 +595,48 @@ button.white {
     font-weight: 500;
 }
 /* here our banner 3 code ends ------------- */
+
+
+/* here is our email new letter ----------- */
+#newletter{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#newletter .newstext h4{
+    font-size: 25px;
+    font-weight: 800;
+
+}
+#newletter .newstext p{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.emailaddress{
+    border: 2px solid red;
+    height: 17vh;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.emailaddress input{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+.emailaddress button{
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
