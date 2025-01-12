@@ -113,7 +113,7 @@ body {
 
 /* here is our her section code start .................... */
 #hero {
-    /* background-image: url("images/hero4image/hero4\ back\ 1.jpg"); */
+    /* background-image: url("images/hero4image/bg\ img.jpg"); */
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -148,6 +148,14 @@ body {
     border: 2px solid #088178;
     font-weight: 700;
     font-size: 15px;
+    box-shadow: -4px 4px 5px;
+    transition: 0.2s ease;
+}
+#hero button:hover{
+    background-color: #08817964;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(2, 1, 1);
+    box-shadow: -4px 4px 15px;
 }
 
 #feature {
