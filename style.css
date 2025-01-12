@@ -599,10 +599,14 @@ button.white {
 
 /* here is our email new letter ----------- */
 #newletter{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     height: 20vh;
+    background-image: url(images/Newsletter/Newsletter\ bacground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
@@ -610,33 +614,44 @@ button.white {
 #newletter .newstext h4{
     font-size: 25px;
     font-weight: 800;
+    color: white;
 
 }
 #newletter .newstext p{
     font-size: 19px;
     font-weight: 700;
+    color: white;
 }
 
-.emailaddress{
-    border: 2px solid red;
+.form{
+    /* border: 2px solid red; */
     height: 17vh;
     width: 45%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
-.emailaddress input{
+.form input{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     font-size: 25px;
     font-weight: 700;
     padding: 15px 30px;
+    outline: hidden;
 }
-.emailaddress button{
+.form button{
     font-size: 25px;
-    padding: 10px 25px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    padding: 15px 30px;
     border-radius: 10px;
-    font-weight: 800;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-weight: 700;
     cursor: pointer;
 
 }
