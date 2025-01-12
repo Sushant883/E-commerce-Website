@@ -151,7 +151,8 @@ body {
     box-shadow: -4px 4px 5px;
     transition: 0.2s ease;
 }
-#hero button:hover{
+
+#hero button:hover {
     background-color: #08817964;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(2, 1, 1);
@@ -325,10 +326,12 @@ body {
     padding-bottom: 25px;
     font-weight: 700;
 }
-#banner h2{
+
+#banner h2 {
     color: #03322e;
 }
-#banner button{
+
+#banner button {
     padding: 10px 25px;
     margin-top: 20px;
     font-size: 25px;
@@ -338,26 +341,26 @@ body {
     border: 1px solid rgba(0, 255, 247, 0.566);
     font-weight: 700;
 }
-
-
 /* here is our banner code ends .............. */
 
 
-/* here is our sm banner code start .......... */
 
-#sm-banner{
-    border: 2px solid blue;
+/* here is our sm banner code start ............................... */
+#sm-banner {
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-#sm-banner .banner-box1{
-    /* border: 2px solid red; */
+
+#sm-banner .banner-box1 {
+    border: 1px solid black;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     /* padding-left: 25px; */
-    padding-right: 10px;
+    padding-right: 20px;
     justify-content: center;
     background: url(images/Banner/smbanner1.avif);
     width: 47%;
@@ -366,18 +369,20 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-.banner-box1 h4{
+
+.banner-box1 h4 {
     font-size: 20px;
     color: white;
     font-weight: 300;
 }
-.banner-box1 h4{
-    font-size: 28px;
+
+.banner-box1 h2 {
+    font-size: 45px;
     color: white;
     font-weight: 800;
 }
 
-.banner-box1 span{
+.banner-box1 span {
     font-size: 14px;
     margin-top: 10px;
     color: rgb(69, 66, 66);
@@ -385,34 +390,36 @@ body {
     padding-bottom: 15px;
 }
 
-#sm-banner .banner-box2{
-    /* border: 2px solid red; */
+#sm-banner .banner-box2 {
+    border: 1px solid black;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     /* padding-left: 25px; */
-    padding-right: 10px;
+    padding-right: 20px;
     justify-content: center;
     background: url(images/Banner/smbanner2.avif);
-   width: 47%;
+    width: 47%;
     /* height: 500px; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.banner-box2 h4{
+.banner-box2 h4 {
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 300;
 }
-.banner-box2 h4{
-    font-size: 28px;
-    color: white;
+
+.banner-box2 h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
     font-weight: 800;
 }
 
-.banner-box2 span{
+.banner-box2 span {
     font-size: 14px;
     margin-top: 10px;
     color: rgb(69, 66, 66);
@@ -420,14 +427,58 @@ body {
     padding-bottom: 15px;
 }
 
-button.white{
+button.white {
     font-size: 13px;
     font-weight: 600;
     padding: 11px 18px;
     color: #000000;
     background-color: transparent;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     outline: none;
     transition: 0.2s ease;
+}
+
+#sm-banner .banner-box1:hover button{
+    background-color: #088178;
+    color: wheat;
+    border: 1px solid #088178;
+}
+#sm-banner .banner-box2:hover button{
+    background-color: #088178;
+    color: wheat;
+    border: 1px solid #088178;
+}
+/* here is our banner 2 code ends -------------------------------- */
+
+
+/* here is our banner 3 code starts ------------------------------ */
+#banner3{
+    border: 2px solid red;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#banner3 .img-cont3{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* padding-left: 25px; */
+    padding-right: 20px;
+    justify-content: center;
+    background: url(images/Banner/b3\ 1.jpg);
+    width: 27%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner3 .img-cont3:hover{
+    cursor: pointer;
+    box-shadow: -1px 1px 30px rgba(0, 0, 0, 0.538);
 }
