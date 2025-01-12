@@ -462,23 +462,98 @@ button.white {
     flex-wrap: wrap;
 
 }
+#banner3 .img-cont1{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(images/Banner/b3\ 1.jpg);
+    min-width: 30%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .img-cont1:hover{
+    cursor: pointer;
+    box-shadow: -1px 1px 30px rgba(0, 0, 0, 0.538);
+}
+#banner3 .img-cont1 h2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+#banner3 .img-cont1 h3{
+    z-index: +1;
+    font-weight: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+#banner3 .img-cont2{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(images/Banner/b3\ 1.jpg);
+    min-width: 30%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .img-cont2:hover{
+    cursor: pointer;
+    box-shadow: -1px 1px 30px rgba(0, 0, 0, 0.538);
+}
+#banner3 .img-cont2 h2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+#banner3 .img-cont2 h3{
+    z-index: +1;
+    font-weight: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
 #banner3 .img-cont3{
     border: 1px solid black;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    /* padding-left: 25px; */
-    padding-right: 20px;
+    align-items: flex-start;
     justify-content: center;
     background: url(images/Banner/b3\ 1.jpg);
-    width: 27%;
+    min-width: 30%;
     height: 40vh;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 20px;
 }
+
 #banner3 .img-cont3:hover{
     cursor: pointer;
     box-shadow: -1px 1px 30px rgba(0, 0, 0, 0.538);
+}
+#banner3 .img-cont3 h2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+#banner3 .img-cont3 h3{
+    z-index: +1;
+    font-weight: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
