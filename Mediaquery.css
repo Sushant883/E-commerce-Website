@@ -152,6 +152,22 @@
     width: 28%;
     height: 35vh;
 }
+/* here is our banner3 code ends -------- */
+
+
+/* here is our new letter code starts ---- */
+#newletter{
+    display: flex;
+    padding: 20px 15px;
+    text-align: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 25vh;
+}
+.form button {
+    font-size: 15px;
+    padding: 5px 10px;
+}
 
 
 

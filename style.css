@@ -612,8 +612,8 @@ button.white {
 #newletter {
     /* border: 2px solid red; */
     display: flex;
-    /* flex-wrap: wrap; */
-    height: 20vh;
+    flex-wrap: wrap;
+    height: auto;
     background-image: url(images/Newsletter/Newsletter\ bacground.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -669,7 +669,6 @@ button.white {
     border-bottom-left-radius: 0;
     font-weight: 700;
     cursor: pointer;
-
 }
 
 /* here is our email code ends ------------------ */
