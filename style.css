@@ -104,6 +104,11 @@ body {
     left: 20px;
 }
 
+#moblie{
+    display: none;
+    align-items: center;
+}
+
 
 /* HOME PAGE ------------------- */
 
