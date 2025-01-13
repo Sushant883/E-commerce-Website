@@ -708,6 +708,7 @@ footer .about,
 .account,
 .install {
     /* border: 2px solid red; */
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -720,13 +721,19 @@ footer .about a {
     text-decoration: none;
     color: #000000c5;
 }
+footer .about a:hover{
+    color: #088178;
+    
+}
 
 footer .account a {
     margin: 10px 0px;
     list-style-type: none;
     text-decoration: none;
     color: #000000c5;
-
+}
+footer .account a:hover{
+    color: #088178;
 }
 
 footer .install a {
@@ -734,13 +741,22 @@ footer .install a {
     text-decoration: none;
 }
 
+footer .install a:hover{
+    color: #088178;
+}
+
 footer .address .icon{
     margin: 10px 0px;
     font-size: 30px;
     cursor: pointer;
 }
+
 footer .address .icon i{
-    gap: 5px;
+    margin: 20px;
+    /* gap: 10px; */
+}
+footer .address .icon i:hover{
+    color: #088178;
 }
 
 /* here is our footer code ends  */
