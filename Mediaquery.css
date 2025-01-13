@@ -133,7 +133,25 @@
     border-top-left-radius: 0;
     border-top: none;
 }
+/* here is our sm-banner code ends ----- */
 
+
+/* here is our banner3 code starts -------- */
+#banner3{
+    padding: 0px 40px;
+}
+#banner3 .img-cont1{
+    width: 28%;
+    height: 35vh;
+}
+#banner3 .img-cont2{
+    width: 28%;
+    height: 35vh;
+}
+#banner3 .img-cont3{
+    width: 28%;
+    height: 35vh;
+}
 
 
 
