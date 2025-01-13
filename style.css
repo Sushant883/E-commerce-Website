@@ -722,7 +722,7 @@ footer .about a {
 }
 
 footer .account a {
-    margin: 20px 0px;
+    margin: 10px 0px;
     list-style-type: none;
     text-decoration: none;
     color: #000000c5;
@@ -732,6 +732,15 @@ footer .account a {
 footer .install a {
     list-style-type: none;
     text-decoration: none;
+}
+
+footer .address .icon{
+    margin: 10px 0px;
+    font-size: 30px;
+    cursor: pointer;
+}
+footer .address .icon i{
+    gap: 5px;
 }
 
 /* here is our footer code ends  */
