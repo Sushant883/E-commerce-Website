@@ -488,7 +488,7 @@ button.white {
     position: absolute;
     inset: 0;
     opacity: 0.4;
-    
+
 }
 
 
@@ -525,7 +525,8 @@ button.white {
     padding: 20px;
     margin-bottom: 20px;
 }
-#banner3 .img-cont2::before{
+
+#banner3 .img-cont2::before {
     background: url(images/Banner/b3\ 2.jpeg);
     background-size: cover;
     content: '';
@@ -567,7 +568,8 @@ button.white {
     padding: 20px;
     margin-bottom: 20px;
 }
-#banner3 .img-cont3::before{
+
+#banner3 .img-cont3::before {
     background: url(images/Banner/b3\ 3.jpeg);
     background-size: cover;
     content: "";
@@ -594,11 +596,12 @@ button.white {
     color: rgb(255, 255, 255);
     font-weight: 500;
 }
+
 /* here our banner 3 code ends ------------- */
 
 
 /* here is our email new letter ----------- */
-#newletter{
+#newletter {
     /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
@@ -612,19 +615,21 @@ button.white {
     margin-bottom: 20px;
     margin-top: 30px;
 }
-#newletter .newstext h4{
+
+#newletter .newstext h4 {
     font-size: 25px;
     font-weight: 800;
     color: white;
 
 }
-#newletter .newstext p{
+
+#newletter .newstext p {
     font-size: 19px;
     font-weight: 700;
     color: white;
 }
 
-.form{
+.form {
     /* border: 2px solid red; */
     height: 17vh;
     width: 45%;
@@ -632,7 +637,8 @@ button.white {
     justify-content: center;
     align-items: center;
 }
-.form input{
+
+.form input {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     border-top-right-radius: 0;
@@ -642,7 +648,8 @@ button.white {
     padding: 15px 30px;
     outline: hidden;
 }
-.form button{
+
+.form button {
     font-size: 25px;
     border: 1px solid rgb(0, 0, 0);
     background-color: #088178;
@@ -655,4 +662,62 @@ button.white {
     font-weight: 700;
     cursor: pointer;
 
+}
+
+/* here is our email code ends ------------------ */
+
+.ftrlogoimg {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.install img {
+    border: 2px solid red;
+    width: 15vw;
+    height: 20vh;
+    cursor: pointer;
+    /* scale: 1.1; */
+    /* box-shadow: 5px 5px 15px; */
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid red;
+    padding: 30px 50px;
+    display: flex;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+footer .about,
+.account,
+.install {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer .about a {
+    margin: 20px 0px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000c5;
+}
+
+footer .account a {
+    margin: 20px 0px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000c5;
+
+}
+
+footer .install a {
+    list-style-type: none;
+    text-decoration: none;
 }
