@@ -108,6 +108,9 @@ body {
     display: none;
     align-items: center;
 }
+#close{
+    display: none;
+}
 
 
 /* HOME PAGE ------------------- */
@@ -463,12 +466,12 @@ button.white {
 /* here is our banner 3 code starts ------------------------------ */
 #banner3 {
     /* border: 2px solid red; */
-    height: 50vh;
+    /* margin-top: 20px; */
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 #banner3 .img-cont1 {
@@ -609,7 +612,7 @@ button.white {
 #newletter {
     /* border: 2px solid red; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     height: 20vh;
     background-image: url(images/Newsletter/Newsletter\ bacground.jpeg);
     background-repeat: no-repeat;
