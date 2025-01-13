@@ -671,20 +671,30 @@ button.white {
     height: auto;
     border-radius: 50%;
 }
-
-.install img {
-    border: 2px solid red;
-    width: 15vw;
-    height: 20vh;
+footer .install .row{
+    /* border: 2px solid blue; */
+    margin: 0;
+}
+footer .install .row img {
+    /* border: 2px solid red; */
+    margin: 0;
+    width: 12vw;
+    height: 100px;
     cursor: pointer;
-    /* scale: 1.1; */
-    /* box-shadow: 5px 5px 15px; */
+}
+
+#payment-img{
+    margin-top: 0;
+    width: 25vw;
+    cursor: pointer;
+    /* height: 20vh; */
 }
 
 .footer {
+    /* background-color: #1f1414; */
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 30px 50px;
     display: flex;
     align-items: flex-start;
@@ -695,7 +705,7 @@ button.white {
 footer .about,
 .account,
 .install {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -720,4 +730,10 @@ footer .account a {
 footer .install a {
     list-style-type: none;
     text-decoration: none;
+}
+
+/* here is our footer code ends  */
+
+.copyrights{
+    text-align: center;
 }
