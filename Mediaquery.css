@@ -385,5 +385,23 @@
     .banner-box2  button{
         font-weight: 800;
     }
+    /* here is our banner 2 code ends ---- */
 
+    #banner3{
+        padding: 0px 20px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    #banner3 .img-cont1{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    #banner3 .img-cont2{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    #banner3 .img-cont3{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
 }
