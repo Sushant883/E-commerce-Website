@@ -131,6 +131,7 @@
 }
 #sm-banner .banner-box2{
     min-width: 100%;
+    background-size: cover;
     height: 30vh;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -144,14 +145,17 @@
     padding: 0px 40px;
 }
 #banner3 .img-cont1{
+    padding: 0px 10px;
     width: 28%;
     height: 35vh;
 }
 #banner3 .img-cont2{
+    padding: 0px 10px;
     width: 28%;
     height: 35vh;
 }
 #banner3 .img-cont3{
+    padding: 0px 10px;
     width: 28%;
     height: 35vh;
 }
@@ -166,7 +170,7 @@
     text-align: center;
     justify-content: center;
     /* flex-wrap: wrap; */
-    height: 20vh;
+    height: 30vh;
 }
 .newstext{
     /* border: 2px solid rgb(255, 0, 0); */
@@ -175,6 +179,8 @@
 .form{
     /* border: 2px solid red; */
     width: auto;
+    /* margin-top: 10px; */
+    height: auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;

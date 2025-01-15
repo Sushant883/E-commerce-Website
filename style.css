@@ -371,11 +371,11 @@ body {
     /* padding-left: 25px; */
     padding-right: 20px;
     justify-content: center;
-    background: url(images/Banner/smbanner1.avif);
+    background: url(images/Banner/smbanner2.avif);
     width: 47%;
     height: 50vh;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
 }
 
@@ -407,12 +407,12 @@ body {
     align-items: flex-end;
     /* padding-left: 25px; */
     padding-right: 20px;
-    justify-content: center;
-    background: url(images/Banner/smbanner2.avif);
+    justify-content: center; 
+    background: url(images/Banner/smbanner1.avif);
     width: 47%;
     /* height: 500px; */
     background-size: cover;
-    background-position: center;
+    /* background-position:center; */
     background-repeat: no-repeat;
 }
 
