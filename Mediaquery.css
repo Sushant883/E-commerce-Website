@@ -37,7 +37,7 @@
 
     #navbar.active {
         right: 0px;
-        
+
     }
 
     #navbar li {
@@ -117,90 +117,101 @@
     #banner h2 {
         font-size: 30px;
     }
-/* here is our banner1 code ends ------- */
+
+    /* here is our banner1 code ends ------- */
 
 
 
-/* here is our sm-banner code starts ---- */
-#sm-banner .banner-box1{
-    min-width: 100%;
-    height: 30vh;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-bottom: none;
-}
-#sm-banner .banner-box2{
-    min-width: 100%;
-    background-size: cover;
-    height: 30vh;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    border-top: none;
-}
-/* here is our sm-banner code ends ----- */
+    /* here is our sm-banner code starts ---- */
+    #sm-banner .banner-box1 {
+        min-width: 100%;
+        height: 30vh;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom: none;
+    }
+
+    #sm-banner .banner-box2 {
+        min-width: 100%;
+        background-size: cover;
+        height: 30vh;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        border-top: none;
+    }
+
+    /* here is our sm-banner code ends ----- */
 
 
-/* here is our banner3 code starts -------- */
-#banner3{
-    padding: 0px 40px;
-}
-#banner3 .img-cont1{
-    padding: 0px 10px;
-    width: 28%;
-    height: 35vh;
-}
-#banner3 .img-cont2{
-    padding: 0px 10px;
-    width: 28%;
-    height: 35vh;
-}
-#banner3 .img-cont3{
-    padding: 0px 10px;
-    width: 28%;
-    height: 35vh;
-}
-/* here is our banner3 code ends -------- */
+    /* here is our banner3 code starts -------- */
+    #banner3 {
+        padding: 0px 40px;
+    }
+
+    #banner3 .img-cont1 {
+        padding: 0px 10px;
+        width: 28%;
+        height: 35vh;
+    }
+
+    #banner3 .img-cont2 {
+        padding: 0px 10px;
+        width: 28%;
+        height: 35vh;
+    }
+
+    #banner3 .img-cont3 {
+        padding: 0px 10px;
+        width: 28%;
+        height: 35vh;
+    }
+
+    /* here is our banner3 code ends -------- */
 
 
-/* here is our new letter code starts ---- */
-#newletter{
-    /* border: 2px solid red; */
-    display: flex;
-    padding: 20px 15px;
-    text-align: center;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    height: 30vh;
-}
-.newstext{
-    /* border: 2px solid rgb(255, 0, 0); */
-}
+    /* here is our new letter code starts ---- */
+    #newletter {
+        /* border: 2px solid red; */
+        display: flex;
+        padding: 20px 15px;
+        text-align: center;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        height: 30vh;
+    }
 
-.form{
-    /* border: 2px solid red; */
-    width: auto;
-    /* margin-top: 10px; */
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-.form button {
-    font-size: 30px;
-    /* margin-top: 10px; */
-    padding: 12.5px 30px;
-}
-/* here is our newsletter code ends --------------- */
+    .newstext {
+        /* border: 2px solid rgb(255, 0, 0); */
+    }
 
-/* here iso ur footer sectin code starts ---------- */
-.footer{
-    flex-wrap: wrap;
-    /* border: 2px solid red; */
-}
-.footer .install .row img{
-    height: 50px;
-    width: 15vw;
-}
+    .form {
+        /* border: 2px solid red; */
+        width: auto;
+        /* margin-top: 10px; */
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .form button {
+        font-size: 30px;
+        /* margin-top: 10px; */
+        padding: 12.5px 30px;
+    }
+
+    /* here is our newsletter code ends --------------- */
+
+    /* here iso ur footer sectin code starts ---------- */
+    .footer {
+        flex-wrap: wrap;
+        /* border: 2px solid red; */
+    }
+
+    .footer .install .row img {
+        height: 50px;
+        width: 15vw;
+    }
 }
 
 
@@ -214,54 +225,75 @@
 @media (max-width: 477px) {
 
     /* here is our navbar code starts -------- */
-    #header{
+    #header {
         padding: 10px 30px;
     }
+
     /* here is our navbar code ends ------------ */
 
 
-/* here is our hero section code starts ------------- */
-    #hero{
+    /* here is our hero section code starts ------------- */
+    #hero {
         /* border: 2px solid red; */
         padding: 0 20px;
         background-position: 55%;
         justify-content: center;
         align-items: first flex-start;
     }
-    #hero h2{
+
+    #hero h2 {
         font-size: 35px;
         /* border: 2px solid red; */
     }
-    #hero h1{
+
+    #hero h1 {
         font-size: 45px;
     }
+
     /* here is our heo code ends ----------------- */
 
     /* here is our feacture section code starts ------ */
-    #feature{
+    #feature {
         /* border: 2px solid red; */
         padding: 20px;
         justify-content: space-between;
-        
+
     }
-    #feature .fe-box{
+
+    #feature .fe-box {
         /* border: 2px solid red; */
         width: 155px;
         height: 200px;
-       margin: 0 0 15px 0;
+        margin: 0 0 15px 0;
     }
+
     /* here is our feacture code ends ----- */
 
 
     /* here is our product 1 code starts -- */
-    #product1 .pro{
+    #product1 .pro {
         width: 100%;
     }
+
     /* here is our product 1 code ends ----- */
 
 
 
     /* here is our banner 1 code starts ---- */
+    #banner {
+        /* border: 2px solid red; */
+    }
 
-    
+    #banner h4 {
+        color: #1f1414;
+        /* border: 2px solid red; */
+        font-size: 17px;
+        /* margin-top: 10px; */
+        line-height: normal;
+    }
+    #banner h2{
+        font-size: 20px;
+        line-height: normal;
+    }
+
 }
