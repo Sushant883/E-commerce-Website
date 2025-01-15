@@ -291,9 +291,99 @@
         /* margin-top: 10px; */
         line-height: normal;
     }
-    #banner h2{
+
+    #banner h2 {
         font-size: 20px;
         line-height: normal;
+    }
+
+    /* here is our banner 1 code ends ----- */
+
+
+    /* here is our banner 2 code satrts ---- */
+    #sm-banner .banner-box1 {
+        align-items: flex-start;
+        padding-left: 10px;
+        height: 40vh;
+        position: relative;
+        background-image: none;
+    }
+
+    #sm-banner .banner-box1::before {
+        content: '';
+        background-image: url(images/Banner/smbanner2.avif);
+        background-size: cover;
+        position: absolute;
+        inset: 0;
+        opacity: 0.4;
+    }
+
+    .banner-box1 h4 {
+        isolation: isolate;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+
+    .banner-box1 h2 {
+        font-size: 45px;
+        color: rgb(0, 0, 0);
+        isolation: isolate;
+        font-weight: 800;
+    }
+
+    .banner-box1 span {
+        font-size: 14px;
+        margin-top: 10px;
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+        padding-bottom: 15px;
+    }
+    .banner-box1  button{
+        font-weight: 800;
+    }
+
+
+    #sm-banner .banner-box2 {
+        align-items: flex-start;
+        padding-left: 10px;
+        height: 40vh;
+        position: relative;
+        background-image: none;
+    }
+
+    #sm-banner .banner-box2::before {
+        content: '';
+        background-image: url(images/Banner/smbanner1.avif);
+        background-size: cover;
+        position: absolute;
+        inset: 0;
+        opacity: 0.4;
+    }
+
+    .banner-box2 h4 {
+        isolation: isolate;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+
+    .banner-box2 h2 {
+        font-size: 45px;
+        color: rgb(0, 0, 0);
+        isolation: isolate;
+        font-weight: 800;
+    }
+
+    .banner-box2 span {
+        font-size: 14px;
+        margin-top: 10px;
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+        padding-bottom: 15px;
+    }
+    .banner-box2  button{
+        font-weight: 800;
     }
 
 }
