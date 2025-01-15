@@ -195,7 +195,7 @@
 /* here iso ur footer sectin code starts ---------- */
 .footer{
     flex-wrap: wrap;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .footer .install .row img{
     height: 50px;
