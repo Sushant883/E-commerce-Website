@@ -222,7 +222,7 @@
 
 /* here is our hero section code starts ------------- */
     #hero{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         padding: 0 20px;
         background-position: 55%;
         justify-content: center;
@@ -235,5 +235,21 @@
     #hero h1{
         font-size: 45px;
     }
-    /* here is our navbar code ends ----------------- */
+    /* here is our heo code ends ----------------- */
+
+    /* here is our feacture section code starts ------ */
+    #feature{
+        /* border: 2px solid red; */
+        padding: 20px;
+        justify-content: space-between;
+        
+    }
+    #feature .fe-box{
+        /* border: 2px solid red; */
+        width: 155px;
+        height: 200px;
+       margin: 0 0 15px 0;
+
+    }
+
 }

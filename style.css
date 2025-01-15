@@ -119,7 +119,7 @@ body {
 
 
 
-/* here is our her section code start .................... */
+/* here is our hero section code start .................... */
 #hero {
     /* background-image: url("images/hero4image/bg\ img.jpg"); */
     height: 90vh;
@@ -166,7 +166,10 @@ body {
     border: 2px solid rgb(2, 1, 1);
     box-shadow: -4px 4px 15px;
 }
+/* here is our hero section code ends .................... */
 
+
+/* here is our feacture code starts --------------- */
 #feature {
     /* border: 2px solid blue; */
     display: flex;
@@ -184,7 +187,6 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
