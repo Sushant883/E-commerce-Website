@@ -339,7 +339,8 @@
         font-weight: 800;
         padding-bottom: 15px;
     }
-    .banner-box1  button{
+
+    .banner-box1 button {
         font-weight: 800;
     }
 
@@ -382,26 +383,88 @@
         font-weight: 800;
         padding-bottom: 15px;
     }
-    .banner-box2  button{
+
+    .banner-box2 button {
         font-weight: 800;
     }
+
     /* here is our banner 2 code ends ---- */
 
-    #banner3{
+    #banner3 {
         padding: 0px 20px;
         width: 100%;
         /* border: 2px solid red; */
     }
-    #banner3 .img-cont1{
+
+    #banner3 .img-cont1 {
         width: 100%;
         /* border: 2px solid red; */
     }
-    #banner3 .img-cont2{
+
+    #banner3 .img-cont2 {
         width: 100%;
         /* border: 2px solid red; */
     }
-    #banner3 .img-cont3{
+
+    #banner3 .img-cont3 {
         width: 100%;
         /* border: 2px solid red; */
+    }
+
+    /* here is our banner 3 code ends --- */
+
+    /* here is our new letter code stats --- */
+    #newletter {
+        line-height: normal;
+    }
+    #newletter .form {
+        /* border: 2px solid red; */
+        width: auto;
+        flex-wrap: wrap;
+    }
+    #newletter .form input{
+        font-size: 20px;
+        padding: 10px 15px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    #newletter .form button {
+        font-size: 20px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    /* here is our news letter code ends ---- */
+
+
+    /* here is our footer code starts ---- */
+   .footer .address .icon{
+        font-size: 25px;
+    }
+    footer .install .row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+    #install-img{
+        width: 150px;
+        margin: 10px;
+        padding: 0;
+        /* border: 2px solid red; */
+        height: auto;
+       
+    }
+    #payment-img{
+        margin-top: 0;
+        width: 60vw;
+        cursor: pointer;
+        /* height: 20vh; */
+    }
+    .copyrights{
+        text-align: center;
+        margin-top: 10px;
+        /* border: 2px solid red; */
+        margin-bottom: 20px;
     }
 }
