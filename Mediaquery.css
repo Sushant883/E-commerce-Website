@@ -37,10 +37,13 @@
 
     #navbar.active {
         right: 0px;
+        
     }
 
     #navbar li {
         margin-bottom: 25px;
+        /* border: 2px solid red; */
+        /* height: 35px; */
     }
 
     #moblie {
@@ -157,16 +160,29 @@
 
 /* here is our new letter code starts ---- */
 #newletter{
+    /* border: 2px solid red; */
     display: flex;
     padding: 20px 15px;
     text-align: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    height: 25vh;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height: 20vh;
+}
+.newstext{
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.form{
+    /* border: 2px solid red; */
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 .form button {
-    font-size: 15px;
-    padding: 5px 10px;
+    font-size: 30px;
+    /* margin-top: 10px; */
+    padding: 12.5px 30px;
 }
 
 
