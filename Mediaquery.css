@@ -417,54 +417,77 @@
     #newletter {
         line-height: normal;
     }
+
     #newletter .form {
         /* border: 2px solid red; */
         width: auto;
         flex-wrap: wrap;
     }
-    #newletter .form input{
+
+    #newletter .form input {
         font-size: 20px;
         padding: 10px 15px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
+
     #newletter .form button {
         font-size: 20px;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
+
     /* here is our news letter code ends ---- */
 
 
     /* here is our footer code starts ---- */
-   .footer .address .icon{
+    .footer .address .icon {
         font-size: 25px;
     }
-    footer .install .row{
+
+    footer .install .row {
         display: flex;
         flex-direction: column;
         width: 100%;
         /* border: 2px solid red; */
         text-align: center;
     }
-    #install-img{
+
+    #install-img {
         width: 150px;
         margin: 10px;
         padding: 0;
         /* border: 2px solid red; */
         height: auto;
-       
+
     }
-    #payment-img{
+
+    #payment-img {
         margin-top: 0;
         width: 60vw;
         cursor: pointer;
         /* height: 20vh; */
     }
-    .copyrights{
+
+    .copyrights {
         text-align: center;
         margin-top: 10px;
         /* border: 2px solid red; */
         margin-bottom: 20px;
+    }
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+    }
+    #prodetails .single-pro-details{
+         /* border: 2px solid red; */
+    padding: 10px 15px;
+    width: 100%;
+    /* padding-top: 20px; */
     }
 }
