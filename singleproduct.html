@@ -46,23 +46,26 @@
             <div class="small-img-group">
 
                 <div class="small-img-col">
-                    <img src="images/singleproduct images/black faded tshirt/small 2.jpg" width="100%"
-                        class="small-img">
+                    <img src="images/singleproduct images/black faded tshirt/small 2.jpg" width="100%" class="small-img"
+                        alt="">
                 </div>
 
                 <div class="small-img-col">
                     <img src="images/singleproduct images/black faded tshirt/small 3.jpg" width="100%" class="small-img"
                         alt="">
+
                 </div>
 
                 <div class="small-img-col">
                     <img src="images/singleproduct images/black faded tshirt/small 4.jpg" width="100%" class="small-img"
                         alt="">
+
                 </div>
 
                 <div class="small-img-col">
                     <img src="images/singleproduct images/black faded tshirt/small 5.jpg" width="100%" class="small-img"
                         alt="">
+
                 </div>
 
             </div>
@@ -170,6 +173,25 @@
         <p><strong>Sushant</strong></p>
         <p>All Right Reserved.</p>
     </div>
+
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function () {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
