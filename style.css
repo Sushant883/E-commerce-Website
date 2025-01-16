@@ -812,3 +812,21 @@ footer .address .icon i:hover{
     font-size: 16px;
     font-weight: 600;
 }
+/* here is our shop.html code ends ------- */
+
+
+
+/* here is our singleproduct.html code starts -------0 */
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    
+}
