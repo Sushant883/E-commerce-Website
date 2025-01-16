@@ -817,7 +817,12 @@ footer .address .icon i:hover{
 
 
 /* here is our singleproduct.html code starts -------0 */
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
 #prodetails .single-pro-image{
+    border: 1px solid black;
     width: 40%;
     margin-right: 50px;
 }
@@ -830,3 +835,49 @@ footer .address .icon i:hover{
     cursor: pointer;
     
 }
+
+#prodetails .single-pro-details{
+    /* border: 2px solid red; */
+    width: 50%;
+    padding-top: 20px;
+}
+#prodetails .single-pro-details h6{
+    padding: 40px 0px 20px 0px;
+    font-size: 15px;
+}
+#prodetails .single-pro-details h4{
+   font-size: 26px;
+   padding: 20px 0px;
+}
+#prodetails .single-pro-details h2{
+padding-bottom: 20px;
+ }
+
+ #prodetails .single-pro-details select{
+    display: block;
+    padding: 10px 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 5px;
+ }
+ #prodetails .single-pro-details input{
+    /* display: block; */
+    width: 60px;
+    height: 47px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+ }
+ #prodetails .single-pro-details button{
+    height: 47px;
+    font-size: 16px;
+    padding: 0px 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border: 0.5px solid black;
+ }
+ #prodetails .single-pro-details button:hover{
+    font-weight: 800;
+ }
+ 
