@@ -69,20 +69,6 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
-/* this code is shop.html ------- */
-#page-header{
-    margin-top: 20px;
-    text-align: center;
-    padding-top: 25px;
-    background-image: url(images/Banner/shophomebanner1.jpg);
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 40vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
 #navbar {
     display: flex;
     align-items: center;
@@ -492,6 +478,7 @@ button.white {
 
 #banner3 .img-cont1 {
     border: 1px solid black;
+    padding-left: 15px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -537,6 +524,7 @@ button.white {
 
 #banner3 .img-cont2 {
     border: 1px solid black;
+    padding-left: 15px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -580,6 +568,7 @@ button.white {
 
 #banner3 .img-cont3 {
     border: 1px solid black;
+    padding-left: 15px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -786,4 +775,40 @@ footer .address .icon i:hover{
 
 .copyrights{
     text-align: center;
+}
+
+
+
+
+
+
+/* this code is shop.html ------- */
+#page-header{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 25px;
+    background-image: url(images/Banner/shophomebanner1.jpg);
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pagination{
+       /* border: 2px solid red;  */
+       text-align: center;
+} 
+#pagination a{
+    padding: 15px 20px;
+    border-radius: 4px;
+    background-color: #088178;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+/* border: 2px solid red; */
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
 }
