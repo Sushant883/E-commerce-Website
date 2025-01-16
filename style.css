@@ -825,10 +825,13 @@ footer .address .icon i:hover{
     border: 1px solid black;
     width: 40%;
     margin-right: 50px;
+   
 }
 .small-img-group{
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .small-img-col{
     flex-basis: 24%;
@@ -838,6 +841,7 @@ footer .address .icon i:hover{
 
 #prodetails .single-pro-details{
     /* border: 2px solid red; */
+    padding: 10px 15px;
     width: 50%;
     padding-top: 20px;
 }
@@ -847,13 +851,16 @@ footer .address .icon i:hover{
 }
 #prodetails .single-pro-details h4{
    font-size: 26px;
-   padding: 20px 0px;
+   /* padding: 20px 0px; */
+   padding-top: 40px;
+   padding-bottom: 10px;
 }
 #prodetails .single-pro-details h2{
 padding-bottom: 20px;
  }
 
  #prodetails .single-pro-details select{
+    cursor: pointer;
     display: block;
     padding: 10px 15px;
     font-weight: 700;
@@ -871,13 +878,24 @@ padding-bottom: 20px;
  #prodetails .single-pro-details button{
     height: 47px;
     font-size: 16px;
-    padding: 0px 15px;
+    padding: 0px 30px;
     background: transparent;
     border: none;
+    color: #fff;
+    font-weight: 500;
     cursor: pointer;
-    border: 0.5px solid black;
+    border-radius: 5px;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: #088178;
  }
  #prodetails .single-pro-details button:hover{
     font-weight: 800;
+ }
+ #prodetails .single-pro-details span li{
+    /* border: 2px solid red; */
+    /* line-height: 25px; */
+    font-size: 20px;
+    padding: 10px 25px;
+
  }
  
