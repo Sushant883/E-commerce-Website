@@ -11,7 +11,7 @@
     <style>
         /* here is our blog section starts ------------ */
         #blog {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             padding-left: 150px;
             padding-right: 150px;
             padding-top: 150px;
@@ -20,27 +20,33 @@
 
 
         #blog .blog-box {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             display: flex;
+            position: relative;
+            justify-content: space-between;
+            margin-bottom: 50px;
 
         }
 
         #blog .blog-img {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             width: 50%;
             margin-right: 40px;
         }
 
         #blog .blog-img img {
             /* border: 2px solid red; */
+            border-radius: 4px;
             width: 100%;
-            height: 300px;
+            height: 350px;
             object-fit: cover;
+            /* background-position: center; */
+            background-size: contain;
             /* margin-right: 40px; */
         }
 
         #blog .blog-details {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             width: 50%;
         }
 
@@ -64,16 +70,21 @@
             transition: 0.3s;
         }
 
-        #blog .blog-details a:hover::after{
-           background-color: #17baa1;
+        #blog .blog-details a:hover::after {
+            background-color: #17baa1;
         }
 
         #blog .blog-details a:hover {
             color: rgb(19, 154, 154);
         }
 
-        #blog h1 {
+        #blog .blog-box h1 {
             position: absolute;
+            top: -40px;
+            left: 0;
+            font-size: 700;
+            color: #c9cbce;
+            z-index: -1;
         }
     </style>
 </head>
@@ -111,16 +122,16 @@
         <p>Save more with coupons & up to 70% off!</p> -->
     </section>
 
+
+    <!-- here is our hero section code starts -------- -->
     <section id="blog">
         <div class="blog-box">
             <div class="blog-img">
                 <img src="images/blogimg/b1.png" alt="">
             </div>
             <div class="blog-details">
-                <h4>The Cotton-Jersey Hoodie</h4>
-                <p>
-
-                    "Stay cozy in this classic gray hoodie, perfect for everyday wear. Crafted from soft, breathable
+                <h4>THE COTTON-JERSEY HOODIE</h4>
+                <p>"Stay cozy in this classic gray hoodie, perfect for everyday wear. Crafted from soft, breathable
                     fabric, it offers comfort and durability. Featuring a spacious kangaroo pocket and adjustable
                     drawstring hood, it's both stylish and functional. A versatile wardrobe staple for all seasons."</p>
                 <p>Let me know if you'd like this customized further!</p>
@@ -128,7 +139,77 @@
             </div>
             <h1>13/01</h1>
         </div>
+
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/blogimg/b2.avif" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>WHITE JERSEY HOODIE</h4>
+                <p>"A cotton gray jersey hoodie is typically a lightweight, soft, and comfortable hoodie made from
+                    jersey-knit cotton fabric. It's breathable and ideal for casual wear or layering. Pair with jeans
+                    and sneakers for a classic casual look.
+                    Layer over a white or black t-shirt with joggers for an athleisure vibe.
+                    Add a denim jacket on top for a trendy, layered outfit."</p>
+                <p>Let me know if you'd like this customized further!</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>13/02</h1>
+        </div>
+
+
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/blogimg/b3.avif" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>FORMAL BALCK SUIT</h4>
+                <p>"A black suit is a timeless, versatile garment often associated with formal occasions and
+                    professional settings. It is a staple in men’s and women’s wardrobes and can be styled in various
+                    ways to suit different events.
+                    Classic Fit: Roomy and traditional, suitable for comfort over long hours.
+                    Slim Fit: Tailored closely to the body, offering a modern, sleek appearance.
+                    Modern Fit: A balance between classic and slim fits."</p>
+                <p>Let me know if you'd like this customized further!</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>13/01</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/blogimg/b4.webp" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>KURTA PAZAMA IN BLUE COLOR</h4>
+                <p>"Stay cozy in this classic gray hoodie, perfect for everyday wear. Crafted from soft, breathable
+                    fabric, it offers comfort and durability. Featuring a spacious kangaroo pocket and adjustable
+                    drawstring hood, it's both stylish and functional. A versatile wardrobe staple for all seasons."</p>
+                <p>Let me know if you'd like this customized further!</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>13/01</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="images/blogimg/b5.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>BLACK SILK PARTY WEAR SHIRT</h4>
+                <p>"A silk black party wear shirt is a luxurious and elegant clothing item, perfect for special
+                    occasions, parties, and evening events. Its smooth texture and natural sheen make it stand out as a
+                    premium wardrobe choice.
+                    A silk black party wear shirt is the epitome of class and sophistication, offering versatility and
+                    an effortlessly stylish appearance."</p>
+                <p>Let me know if you'd like this customized further!</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>13/01</h1>
+        </div>
     </section>
+    <!-- here is our hero section code ends ---------- -->
+
+
 
     <section id="pagination" class="section-p1">
         <a href="#">1</a>
