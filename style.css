@@ -782,7 +782,9 @@ footer .address .icon i:hover{
 
 
 
-/* this code is shop.html ------- */
+
+
+/* this code is shop.html --------------------------------- */
 #page-header{
     margin-top: 20px;
     text-align: center;
@@ -898,4 +900,25 @@ padding-bottom: 20px;
     padding: 10px 25px;
 
  }
- 
+ /* here is our shop.html code ends -------------------------- */
+
+
+
+
+
+
+
+
+ /* here this is code for blog .html ----------------------------- */
+#blog-header{
+    background-image: url(images/blogimg/header\ imge\ back.avif);
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 25px;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
