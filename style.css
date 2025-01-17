@@ -910,7 +910,7 @@ padding-bottom: 20px;
 
 
  /* here this is code for blog .html ----------------------------- */
-#blog-header{
+#page-header.blog-header{
     background-image: url(images/blogimg/header\ imge\ back.avif);
     margin-top: 20px;
     text-align: center;
@@ -922,3 +922,6 @@ padding-bottom: 20px;
     background-size: cover;
     background-position: center;
 }
+
+
+
