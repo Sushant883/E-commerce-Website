@@ -92,6 +92,55 @@
             width: 100%;
             height: 100%;
         } 
+
+        #form-details{
+            border: 2px solid red;
+            padding: 40px 80px;
+        }
+        #form-details form{
+            width: 60%;
+            border: 2px solid red;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        #form-details form span{
+            font-size: 17px;
+        }
+        #form-details form h2{
+            font-size: 26px;
+            padding: 15px 0px;
+        }
+        #form-details form input{
+            width: 100%;
+            font-size: 20px;
+            margin: 10px 0px;
+            font-weight: 500;
+            padding: 10px 15px;
+            outline: none;
+            border: 1px solid #e1e1e1;
+            /* background-color: rgb(204, 210, 201); */
+        }
+        #form-details form textarea{
+            width: 100%;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 10px 15px;
+            height: 20vh;
+        }
+        #form-details form button{
+            font-size: 20px;
+            padding: 12px 25px;
+            margin-top: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-weight: 500;
+            transition: 0.2s ease-in-out;
+        }
+        #form-details form button:hover{
+            font-weight: 800;
+            scale: 1.01;
+        }
     </style>
 </head>
 
@@ -163,6 +212,20 @@
         </div>
 
     </section>
+<!-- here is our contact or map details code ends ----- -->
+
+
+<section id="form-details">
+    <form action="">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We love to hear from you</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your E-mail">
+        <input type="text" placeholder="Subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <button>Submit</button>
+    </form>
+</section>
 
 
 
