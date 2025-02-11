@@ -97,12 +97,13 @@
             width: 100%;
             height: 100%;
         }
-/* here is our contact details code ends ------ */
+
+        /* here is our contact details code ends ------ */
 
 
 
 
-/* here is our font code starts ------- */
+        /* here is our font code starts ------- */
         #form-details {
             margin: 0 10px;
             border-radius: 15px;
@@ -169,102 +170,140 @@
             font-weight: 800;
             scale: 1.01;
         }
+
         /* here is our font code ends ----- */
         @media (max-width:480px) {
-            #contact-details{
+            #contact-details {
                 display: flex;
                 flex-direction: column;
             }
-            #contact-details .details{
+
+            #contact-details .details {
                 width: 100%;
             }
-            #contact-details .map{
+
+            #contact-details .map {
                 width: 100%;
             }
+
             #form-details {
                 /* border: 2px solid red; */
                 padding: 10px 15px;
                 margin-top: 15px;
             }
+
             #form-details form {
+                width: 100%;
+            }
+
+            /* // cart add code  */
+            #cart-add {
+                flex-direction: column;
+                /* border: 2px solid red; */
+            }
+
+            #cart-add #coupon{
+                /* border: 2px solid red; */
+                width: 100%;
+            }
+            #cart-add #subtotal{
                 width: 100%;
             }
         }
 
 
+        #cart {
+            overflow-x: auto;
+        }
 
         #cart table {
             width: 100%;
-            border-collapse:collapse;
+            border-collapse: collapse;
             table-layout: fixed;
             white-space: nowrap;
         }
-        #cart table img{
+
+        #cart table img {
             width: 70px;
         }
-        #cart table td:nth-child(1){
-            width: 100px;
-            text-align: center;
-        }
-        #cart table td:nth-child(2){
-            width: 150px;
-            text-align: center;
-        }
-        #cart table td:nth-child(3){
-            width: 250px;
-            text-align: center;
-        }
-        #cart table td:nth-child(4),#cart table td:nth-child(5),#cart table td:nth-child(6){
+
+        #cart table td:nth-child(1) {
             width: 100px;
             text-align: center;
         }
 
-        #cart table td:nth-child(5) input{
+        #cart table td:nth-child(2) {
+            width: 150px;
+            text-align: center;
+        }
+
+        #cart table td:nth-child(3) {
+            width: 250px;
+            text-align: center;
+        }
+
+        #cart table td:nth-child(4),
+        #cart table td:nth-child(5),
+        #cart table td:nth-child(6) {
+            width: 100px;
+            text-align: center;
+        }
+
+        #cart table td:nth-child(5) input {
             width: 70px;
             padding: 10px 5px 10px 15px;
 
         }
-        #cart table thead{
+
+        #cart table thead {
             border: 1px solid #e2e2e1;
             border-left: none;
             border-right: none;
         }
-        #cart table thead td{
+
+        #cart table thead td {
             font-weight: 700;
             text-transform: uppercase;
             font-size: 13px;
             padding: 18px 0px;
         }
-        #cart table tbody tr td{
+
+        #cart table tbody tr td {
             padding-top: 15px;
         }
-        #cart table tbody td{
+
+        #cart table tbody td {
             font-size: 13px;
         }
 
-        #cart-add{
+        #cart-add {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
         }
+
         #cart-add button {
             background-color: #269a92;
             font-size: 15px;
             font-weight: 700;
             color: white;
-            padding: 8px 20px;
+            padding: 10px 20px;
             border-radius: 5px;
             border: 1px solid black;
             cursor: pointer;
         }
-        #coupon{
+
+        #coupon {
             /* border: 1px solid red; */
             width: 50%;
             margin-bottom: 30px;
         }
-        #coupon h3 {
+
+        #coupon h3,
+        #subtotal h3 {
             padding-bottom: 15px;
         }
+
         #coupon input {
             padding: 10px 20px;
             outline: none;
@@ -273,19 +312,21 @@
             border: 1px solid #e2e2e1;
         }
 
-        #subtotal{
+        #subtotal {
             width: 50%;
             margin-bottom: 30px;
             border: 1px solid #e2e2e1;
             padding: 30px;
         }
-        #subtotal table{
+
+        #subtotal table {
             /* border: 2px solid red; */
             border-collapse: collapse;
             width: 100%;
             margin-bottom: 20px;
         }
-        #subtotal table td{
+
+        #subtotal table td {
             /* border: 2px solid red; */
             width: 50%;
             border: 1px solid #e2e2e1;
@@ -307,8 +348,8 @@
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a  href="contact.html">Contact</a></li>
-                <li id="lg-bag" ><a href="Cart.html" class="active"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="Cart.html" class="active"><i class="far fa-shopping-bag"></i></a></li>
                 <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
         </div>
@@ -329,79 +370,80 @@
     <!-- here is our hero section end s----------------- =------------ -->
 
 
-<section id="cart" class="section-p1">
-    <table width="100%">
-        <thead>
-            <tr>
-                <td>Remove</td>
-                <td>Image</td>
-                <td>Product</td>
-                <td>Price</td>
-                <td>Quantity</td>
-                <td>Subtotal</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                <td><img src="#" alt=""></td>
-                <td>Cartoon Astronaut T-shirt</td>
-                <td>$118.5</td>
-                <td><input type="number" value="1"></td>
-                <td>$118.19</td>
-            </tr>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="#" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>$118.5</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
 
-            <tr>
-                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                <td><img src="#" alt=""></td>
-                <td>Cartoon Astronaut T-shirt</td>
-                <td>$118.5</td>
-                <td><input type="number" value="1"></td>
-                <td>$118.19</td>
-            </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="#" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>$118.5</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
 
-            <tr>
-                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
-                <td><img src="#" alt=""></td>
-                <td>Cartoon Astronaut T-shirt</td>
-                <td>$118.5</td>
-                <td><input type="number" value="1"></td>
-                <td>$118.19</td>
-            </tr>
-            
-        </tbody>
-    </table>
-</section>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="#" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>$118.5</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
 
-
-<section id="cart-add" class="section-p1">
-    <div id="coupon">
-        <h3>Apply Coupon</h3>
-        <div>
-            <input type="text" placeholder="Enter Your Coupon">
-            <button class="normal">Apply</button>
-        </div>
-    </div>
-
-    <div id="subtotal">
-        <h3>Cart Totals</h3>
-        <table>
-            <tr>
-                <td>Cart Subtotal</td>
-                <td>$ 335</td>
-            </tr>
-            <tr>
-                <td>Shipping</td>
-                <td>Free</td>
-            </tr>
-            <tr>
-                <td><strong>Total</strong></td>
-                <td><strong>$335</strong></td>
-            </tr>
+            </tbody>
         </table>
-    </div>
+    </section>
 
-</section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button>Proceed to Checkout</button>
+        </div>
+
+    </section>
 
 
 
