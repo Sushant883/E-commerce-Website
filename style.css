@@ -104,11 +104,12 @@ body {
     left: 20px;
 }
 
-#moblie{
+#moblie {
     display: none;
     align-items: center;
 }
-#close{
+
+#close {
     display: none;
 }
 
@@ -143,8 +144,18 @@ body {
 
 #shopnow-btn {
     border-radius: 50%;
+    /* border: 2px solid red; */
     width: 5vh;
     height: auto;
+}
+
+#hero button a {
+    text-decoration: none;
+    color: #000000;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 #hero button {
@@ -166,6 +177,7 @@ body {
     border: 2px solid rgb(2, 1, 1);
     box-shadow: -4px 4px 15px;
 }
+
 /* here is our hero section code ends .................... */
 
 
@@ -409,7 +421,7 @@ body {
     align-items: flex-end;
     /* padding-left: 25px; */
     padding-right: 20px;
-    justify-content: center; 
+    justify-content: center;
     background: url(images/Banner/smbanner1.avif);
     width: 47%;
     /* height: 500px; */
@@ -683,10 +695,12 @@ button.white {
     height: auto;
     border-radius: 50%;
 }
-footer .install .row{
+
+footer .install .row {
     /* border: 2px solid blue; */
     margin: 0;
 }
+
 footer .install .row img {
     border: 2px solid rgb(0, 255, 204);
     border-radius: 5px;
@@ -697,7 +711,7 @@ footer .install .row img {
     cursor: pointer;
 }
 
-#payment-img{
+#payment-img {
     margin-top: 0;
     width: 25vw;
     cursor: pointer;
@@ -733,9 +747,10 @@ footer .about a {
     text-decoration: none;
     color: #000000c5;
 }
-footer .about a:hover{
+
+footer .about a:hover {
     color: #088178;
-    
+
 }
 
 footer .account a {
@@ -744,7 +759,8 @@ footer .account a {
     text-decoration: none;
     color: #000000c5;
 }
-footer .account a:hover{
+
+footer .account a:hover {
     color: #088178;
 }
 
@@ -753,27 +769,28 @@ footer .install a {
     text-decoration: none;
 }
 
-footer .install a:hover{
+footer .install a:hover {
     color: #088178;
 }
 
-footer .address .icon{
+footer .address .icon {
     margin: 10px 0px;
     font-size: 30px;
     cursor: pointer;
 }
 
-footer .address .icon i{
+footer .address .icon i {
     margin: 15px;
     /* gap: 10px; */
 }
-footer .address .icon i:hover{
+
+footer .address .icon i:hover {
     color: #088178;
 }
 
 /* here is our footer code ends  */
 
-.copyrights{
+.copyrights {
     text-align: center;
 }
 
@@ -785,7 +802,7 @@ footer .address .icon i:hover{
 
 
 /* this code is shop.html --------------------------------- */
-#page-header{
+#page-header {
     margin-top: 20px;
     text-align: center;
     padding-top: 25px;
@@ -797,87 +814,98 @@ footer .address .icon i:hover{
     background-size: cover;
 }
 
-#pagination{
-       /* border: 2px solid red;  */
-       text-align: center;
-} 
-#pagination a{
+#pagination {
+    /* border: 2px solid red;  */
+    text-align: center;
+}
+
+#pagination a {
     padding: 15px 20px;
     border-radius: 4px;
     background-color: #088178;
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-/* border: 2px solid red; */
+    /* border: 2px solid red; */
 }
-#pagination a i{
+
+#pagination a i {
     font-size: 16px;
     font-weight: 600;
 }
+
 /* here is our shop.html code ends ------- */
 
 
 
 /* here is our singleproduct.html code starts -------0 */
-#prodetails{
+#prodetails {
     display: flex;
     margin-top: 20px;
 }
-#prodetails .single-pro-image{
+
+#prodetails .single-pro-image {
     border: 1px solid black;
     width: 40%;
     margin-right: 50px;
-   
+
 }
-.small-img-group{
+
+.small-img-group {
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.small-img-col{
+
+.small-img-col {
     flex-basis: 24%;
     cursor: pointer;
-    
+
 }
 
-#prodetails .single-pro-details{
+#prodetails .single-pro-details {
     /* border: 2px solid red; */
     padding: 10px 15px;
     width: 50%;
     padding-top: 20px;
 }
-#prodetails .single-pro-details h6{
+
+#prodetails .single-pro-details h6 {
     padding: 40px 0px 20px 0px;
     font-size: 15px;
 }
-#prodetails .single-pro-details h4{
-   font-size: 26px;
-   /* padding: 20px 0px; */
-   padding-top: 40px;
-   padding-bottom: 10px;
-}
-#prodetails .single-pro-details h2{
-padding-bottom: 20px;
- }
 
- #prodetails .single-pro-details select{
+#prodetails .single-pro-details h4 {
+    font-size: 26px;
+    /* padding: 20px 0px; */
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#prodetails .single-pro-details h2 {
+    padding-bottom: 20px;
+}
+
+#prodetails .single-pro-details select {
     cursor: pointer;
     display: block;
     padding: 10px 15px;
     font-weight: 700;
     margin-bottom: 20px;
     border-radius: 5px;
- }
- #prodetails .single-pro-details input{
+}
+
+#prodetails .single-pro-details input {
     /* display: block; */
     width: 60px;
     height: 47px;
     padding-left: 10px;
     margin-right: 10px;
     font-size: 16px;
- }
- #prodetails .single-pro-details button{
+}
+
+#prodetails .single-pro-details button {
     height: 47px;
     font-size: 16px;
     padding: 0px 30px;
@@ -889,18 +917,21 @@ padding-bottom: 20px;
     border-radius: 5px;
     border: 0.5px solid rgb(0, 0, 0);
     background-color: #088178;
- }
- #prodetails .single-pro-details button:hover{
+}
+
+#prodetails .single-pro-details button:hover {
     font-weight: 800;
- }
- #prodetails .single-pro-details span li{
+}
+
+#prodetails .single-pro-details span li {
     /* border: 2px solid red; */
     /* line-height: 25px; */
     /* font-size: 20px; */
     padding: 10px 25px;
 
- }
- /* here is our shop.html code ends -------------------------- */
+}
+
+/* here is our shop.html code ends -------------------------- */
 
 
 
@@ -909,8 +940,8 @@ padding-bottom: 20px;
 
 
 
- /* here this is code for blog .html ----------------------------- */
-#page-header.blog-header{
+/* here this is code for blog .html ----------------------------- */
+#page-header.blog-header {
     background-image: url(images/blogimg/header\ imge\ back.avif);
     margin-top: 20px;
     text-align: center;
@@ -922,6 +953,3 @@ padding-bottom: 20px;
     background-size: cover;
     background-position: center;
 }
-
-
-
